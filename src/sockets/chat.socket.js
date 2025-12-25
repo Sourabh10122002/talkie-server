@@ -9,7 +9,7 @@ function initSocket(server) {
   io = new Server(server, {
     cors: {
       origin: [
-        "https://talkie-client.vercel.app/"
+        "https://talkie-client.vercel.app"
       ],
       methods: ["GET", "POST", "PUT", "DELETE"],
       credentials: true
