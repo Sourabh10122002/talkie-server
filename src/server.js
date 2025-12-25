@@ -14,7 +14,7 @@ initSocket(server);
 connectDB()
 app.use(cors({
     origin: [
-        "https://chat-app-client-chi-three.vercel.app",
+        "https://talkie-client.vercel.app",
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
