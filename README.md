@@ -1,4 +1,4 @@
-# Chat App — Server (Node.js + Express + Socket.io)
+# Talkie | Real-time Chat App — Server (Node.js + Express + Socket.io)
 
 This is the **backend** for the real-time chat application.  
 It manages authentication, channels, message storage, pagination, online presence, and WebRTC signaling for audio/video calls.
